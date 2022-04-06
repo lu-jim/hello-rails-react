@@ -3,12 +3,12 @@ import {
 } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
-import messageReducer from './message/dashboard';
+import greetingReducer from './greeting/greeting';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const reducer = combineReducers({
- message: messageReducer,
+ greeting: greetingReducer,
 });
 const store = createStore(
   reducer, /* preloadedState, */ composeEnhancers(

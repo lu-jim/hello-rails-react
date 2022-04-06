@@ -4,4 +4,5 @@
 # Examples:
 
 Message.create([{ content: 'Hello Rails!' }, { content: 'Hola Rails!' },
-                { content: 'Hallo Rails' }, { content: '今日は レイルス!' }])
+                { content: 'Hallo Rails' }, { content: 'Bonjour Rails!' },
+                { content: '今日は レイルス!' }])
