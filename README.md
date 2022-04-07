@@ -1,25 +1,57 @@
-# README
+# Hello Rails React
+![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/Ruby-red) ![](https://img.shields.io/badge/Rails-critical)
+> Mobile web application built that shows a random greeting from a Rails API though a React component
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Built With
+- Ruby
+- Javascript
+- Rails
+- React
 
-* Ruby version
+## Getting Started
+To get a local copy up and running follow these simple steps.
+### Prerequisites
+- Having a modern internet browser: I.E. Chrome, Edge, Safari, Firefox.
+### Setup
+- Go into the main page for this project: https://github.com/lu-jim/hello-rails-react
+- Click the green Code button next to the About section.
+- Select the then click the 📋 button.
+### Install
+- Open your console and change the current working directory into the destination for this project.
+- Type `git clone`, and then paste the URL copied in the Setup section.
+- Type Enter and then enter `cd hello-rails-react` to enter into the project directory.
+- Run `bundler install` to install the required dependencies
 
-* System dependencies
+## Run
+```sh
+rails db:create # create database
+rails db:migrate # migrate tables
+rails db:seed # load all data in database from seed.rb
 
-* Configuration
 
-* Database creation
+rails s
+```
 
-* Database initialization
+## Authors
 
-* How to run the test suite
+👤 **Luis Fernando Jimenez**
 
-* Services (job queues, cache servers, search engines, etc.)
+- GitHub: [@lu-jim](https://github.com/lu-jim)
+- Twitter: [@lujimhe](https://twitter.com/lujimhe)
+- LinkedIn: [@lujim](https://www.linkedin.com/in/lujim/)
 
-* Deployment instructions
+## 🤝 Contributing
 
-* ...
- # hello-rails-react
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+## Acknowledgments
+
+- Microverse for the guidelines used for this project
+- My SO and project manager, Mane
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
