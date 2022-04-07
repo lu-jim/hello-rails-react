@@ -10,7 +10,7 @@ const Greeting = () => {
   useEffect(() => {
     dispatch(getMessage());
   }, []);
-  return(<p> {message}</p>);
+  return(<h1> {message}</h1>);
 };
 
 Greeting.propTypes = {

@@ -9,8 +9,7 @@ const App = () => (
 <Provider store={store}>
     <Router>
         <Routes>
-          <Route exact path="/" element={<h1> Home</h1> } />
-          <Route path="/message" element={<Greeting />} />
+          <Route exact path="/" element={<Greeting /> } />
         </Routes>
     </Router>
 </Provider>
